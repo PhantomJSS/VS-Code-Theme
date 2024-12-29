@@ -1,0 +1,38 @@
+{
+  "name": "phantom-vsc-theme",
+  "displayName": "Phantom Theme (PJS)",
+  "description": "A dark theme for VS Code, inspired by Yato from Noragami (Black, Grey, and Red Palette)",
+  "version": "0.0.1",
+  "publisher": "PhantomJS",
+  "galleryBanner": {
+    "color": "#180000",
+    "theme": "dark"
+  },
+  "engines": {
+    "vscode": "^1.96.0"
+  },
+  "keywords": [
+    "theme",
+    "dark theme",
+    "phantom",
+    "phantomjs",
+    "phantomjs theme",
+    "phantom theme",
+    "phantom theme dark",
+    "yato",
+    "phantom yato theme",
+    "phantomjs yato theme"
+  ],
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Phantom Theme (PJS)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Phantom Theme (PJS)-color-theme.json"
+      }
+    ]
+  }
+}
